@@ -1,0 +1,2 @@
+web: waitress-serve --port=$PORT Expense-Tracker-master.wsgi:application
+heroku ps:scale web=1
