@@ -1,1 +1,1 @@
-# ExpenseTrackerApp
+# expensetrackerapp
