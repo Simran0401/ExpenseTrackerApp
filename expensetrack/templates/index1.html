@@ -162,14 +162,22 @@
                                                     <option value="food" name="category">Food</option>
                                                     <option selected value="clothes" name="category">Clothes</option>
                                                     <option value="travel" name="category">Travel</option>
+                                                    <option value="other" name="category">Other</option>
                                                 {% elif expense.category == "food" %}
                                                     <option selected value="food" name="category">Food</option>
                                                     <option value="clothes" name="category">Clothes</option>
                                                     <option value="travel" name="category">Travel</option>
+                                                    <option value="other" name="category">Other</option>
                                                 {% elif expense.category == "travel" %}
                                                     <option value="food" name="category">Food</option>
                                                     <option value="clothes" name="category">Clothes</option>
                                                     <option selected value="travel" name="category">Travel</option>
+                                                    <option value="other" name="category">Other</option>
+                                                {% elif expense.category == "other" %}
+                                                    <option selected value="other" name="category">Other</option>
+                                                    <option value="food" name="category">Food</option>
+                                                    <option value="clothes" name="category">Clothes</option>
+                                                    <option value="travel" name="category">Travel</option>    
                                                 {% endif %}
 
                                             </select>
@@ -250,6 +258,7 @@
                             <option value="food" name="category">Food</option>
                             <option value="clothes" name="category">Clothes</option>
                             <option value="travel" name="category">Travel</option>
+                            <option value="other" name="category">Other</option>
                         </select>
                     </div>
                     <div class="form-group">
