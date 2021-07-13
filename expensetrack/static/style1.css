@@ -215,9 +215,9 @@ em {
   width: 60px;
 }
 
-.theme-switch input {
+/* .theme-switch input {
   display: none;
-}
+} */
 
 .slider {
   background-color: #ccc;
