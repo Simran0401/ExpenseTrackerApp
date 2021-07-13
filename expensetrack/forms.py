@@ -1,7 +1,7 @@
 from django.forms import ModelForm
-from .models import Expense
+from .models import Expensetrack_expense
 
-class ExpenseForm(ModelForm):
+class Expensetrack_expense_Form(ModelForm):
     class Meta:
-        model = Expense
+        model = Expensetrack_expense
         fields = '__all__'

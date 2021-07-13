@@ -79,13 +79,12 @@ WSGI_APPLICATION = 'expensetracker.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'expensetracker',
-        'USER': 'root',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'NAME': 'heroku_6acab1a7e1870c1',
+        'USER': 'b7530ac43a25d2',
+        'PASSWORD': 'f7bd3f1e',
+        'HOST': 'us-cdbr-east-04.cleardb.com',
         'OPTIONS': {
-        'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        'init_command': "SET sql_mode='STRICT_TRANS_TABLES';"
         }
     }
 }
